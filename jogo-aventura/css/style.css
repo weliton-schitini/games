@@ -1,0 +1,28 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.tela{
+    position: relative;
+    width: 80%;
+    height: 500px;
+    border: 1px solid black;
+    margin: 0 auto;
+}
+
+.tela > img{
+    position: absolute;
+    width: 100px;
+    bottom: 0;
+}
+
+.tela .obstaculo{
+    width: 80px;
+    height: 80px;
+    background-color: red;
+    position: absolute;
+    bottom: 0px;
+}
